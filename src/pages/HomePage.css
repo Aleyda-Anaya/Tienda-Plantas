@@ -1,0 +1,36 @@
+.homepage {
+    background-image: url('../assets/background.jpg'); /* Ruta relativa desde public */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+    color: #084965; 
+    text-align: center; /* Centra el texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .homepage h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .homepage p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .homepage button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #28a745; /* Color verde para el botón */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .homepage button:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el ratón */
+  }
+  
